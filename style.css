@@ -1,0 +1,71 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+.container{
+   height: 100vh;
+   width: 100%; 
+   background-image: url(media/Fashion.jpeg);
+   background-size: cover;
+   background-position: center;
+   position: relative;
+}
+.navbar{
+    width: 88%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+    /* margin-right: 40px; */
+    padding-right: 30%;
+     
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:grey;
+    font-size: 14px;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 25%;
+}
+.left-col{
+    margin: 5%;
+}
+.left-col h1{
+    font-size: 45px;
+    color:whitesmoke;
+    line-height: 100px;
+    float: left;
+
+}
+.right-col{
+    float: right;
+    margin-right: 5%;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+}
+.right-col p{
+    font-size: 19px;
+    font-weight: 400;
+    margin-right: 15px;
+    color:grey;
+}
+#icon{
+    width: 50px;
+    cursor: pointer;
+}
